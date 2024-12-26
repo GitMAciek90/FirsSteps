@@ -25,4 +25,17 @@ console.log(text1);
 const number2 = 1234;
 console.log(number2.toString());  //number changed to string
 
-let bb = "bb";
+const myNumbers = [1, 2, 3, 4, 5]
+console.log(myNumbers[0]);
+console.log(myNumbers.length);
+
+const array2dNew =  [];
+array2dNew[0] = [1, 2, 3, 4, 5];
+array2dNew[1] = ["Ala", "Adam"];
+array2dNew[2] = ["Wojtek", "Kasia"];
+array2dNew[3] = [3, 4, 5, 6];
+console.log(array2dNew[0][4]); /* Zwróci 5 */
+console.log(array2dNew[1][1]); /* Zwróci "Adam” */
+console.log(array2dNew[2][0]); /* Zwróci "Wojtek" */
+console.log(array2dNew[3][3]); /* Zwróci 6 */
+console.log(array2dNew[3][4]); /* Zwróci undefined*/
