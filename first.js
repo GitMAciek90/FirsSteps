@@ -25,3 +25,4 @@ console.log(text1);
 const number2 = 1234;
 console.log(number2.toString());  //number changed to string
 
+let bb = "bb";
